@@ -1,6 +1,54 @@
 //2-qism
+//1-masala
+// (function () {
+//   console.log("IIFE ishga tushdi!");
+// })();
+//IIFE elon qilinishi bilan ishga tushiradi
 
-//3-qism. Masalalar
+//2-masala
+//a
+// function getNumbers(arr) {
+//   return arr.filter((value) => value % 2 === 0);
+// }
+// console.log(getNumbers([12, 5, 4, 63, 7]));
+
+//b
+// function sumElement(arr) {
+//   let sum = 0;
+//   arr.forEach((element) => {
+//     sum += element;
+//   });
+//   return sum;
+// }
+// console.log(sumElement([1, 5, 5, 4, 2]));
+
+//c
+// function degreeElement(arr) {
+//   return arr ** 5;
+// }
+// console.log(degreeElement([4]));
+//
+//Pure function (sof funksiya)-bu hech qanday tashqi ta`sirga ega bo`lmagan va bir xil natija qaytarishini anglatadi.
+
+//3-masala
+// function findNumbers(arr) {
+//   return arr.filter((value) => value % 2 === 1);
+// }
+// console.log(findNumbers([12, 5, 4, 63, 7]));
+//Callback function funksiyaning argumentiga funksiya berish
+
+//4-masala
+//a
+// function countElement(n) {
+//   if (n === 0) {
+//     return;
+//   }
+//   console.log(n);
+//   countElement(n - 1);
+// }
+// countElement(10);
+
+// //3-qism. Masalalar
 // 1-masala
 // let arr = {
 //   name: "Aziz",
