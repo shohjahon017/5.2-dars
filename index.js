@@ -1,10 +1,26 @@
 //2-qism
+
+//IIFE
 //1-masala
 // (function () {
 //   console.log("IIFE ishga tushdi!");
 // })();
+
+// (function (a, b) {
+//   console.log(a * b);
+// })(6, 5);
+
+// (function (a, b) {
+//   console.log(a + b);
+// })(100, 35);
+
+// (function (a, b) {
+//   console.log(a - b);
+// })(186, 145);
+
 //IIFE elon qilinishi bilan ishga tushiradi
 
+//Pure function
 //2-masala
 //a
 // function getNumbers(arr) {
@@ -28,8 +44,11 @@
 // }
 // console.log(degreeElement([4]));
 //
+
+//d
 //Pure function (sof funksiya)-bu hech qanday tashqi ta`sirga ega bo`lmagan va bir xil natija qaytarishini anglatadi.
 
+//Callback function
 //3-masala
 // function findNumbers(arr) {
 //   return arr.filter((value) => value % 2 === 1);
@@ -37,6 +56,7 @@
 // console.log(findNumbers([12, 5, 4, 63, 7]));
 //Callback function funksiyaning argumentiga funksiya berish
 
+//Rekursiv
 //4-masala
 //a
 // function countElement(n) {
