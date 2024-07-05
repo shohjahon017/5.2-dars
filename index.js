@@ -143,9 +143,12 @@
 //4-masala
 // function indexElement(arr1, arr2) {
 //   let res = arr1.indexOf(arr2);
-//   return res ** 3;
+//   if (arr2 !== -1) {
+//     return arr2 ** 3;
+//   }
+//   re;
 // }
-// console.log(indexElement([1, 2, 5, 7, 6, 8], 5));
+// console.log(indexElement([1, 2, 5, 7, 6, 8], [5]));
 
 //5-masala
 // function indexElement(arr1, arr2) {
