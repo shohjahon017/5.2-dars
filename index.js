@@ -146,7 +146,6 @@
 //   if (arr2 !== -1) {
 //     return arr2 ** 3;
 //   }
-//   re;
 // }
 // console.log(indexElement([1, 2, 5, 7, 6, 8], [5]));
 
@@ -178,13 +177,15 @@
 
 //8-masala
 // function findOddElement(arr) {
+//   let find = [];
 //   let res = arr.forEach((element) => {
 //     if (element > 100 && element < 999 && element % 2 == 1) {
+//       find.push(element);
 //     }
 //   });
-//   return res;
+//   return find;
 // }
-// console.log(findOddElement([1, 5, 66, 8, 997, 154]));
+// console.log(findOddElement([1, 5, 135, 66, 8, 997, 154]));
 
 //9-masala
 // function pairElement(arr) {
